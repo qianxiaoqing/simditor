@@ -1,0 +1,155 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.12.3
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'D:\\project\\npm包\\simditor',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\hqq\AppData\Roaming\npm-cache\simditor\2.3.6\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\hqq\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle simditor@2.3.6~prepublish: simditor@2.3.6
+11 silly lifecycle simditor@2.3.6~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\hqq\\AppData\\Roaming\\npm-cache\\simditor\\2.3.6\\package.tgz',
+12 verbose tar pack   'D:\\project\\npm包\\simditor' ]
+13 verbose tarball C:\Users\hqq\AppData\Roaming\npm-cache\simditor\2.3.6\package.tgz
+14 verbose folder D:\project\npm包\simditor
+15 verbose addLocalTarball adding from inside cache C:\Users\hqq\AppData\Roaming\npm-cache\simditor\2.3.6\package.tgz
+16 verbose correctMkdir C:\Users\hqq\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd simditor@2.3.6
+18 verbose afterAdd C:\Users\hqq\AppData\Roaming\npm-cache\simditor\2.3.6\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\hqq\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\hqq\AppData\Roaming\npm-cache\simditor\2.3.6\package\package.json written
+21 silly publish { _args: [ [ [Object], 'D:\\project\\data_product\\webapp\\jingtian' ] ],
+21 silly publish   _from: '.',
+21 silly publish   _id: 'simditor@2.3.6',
+21 silly publish   _inCache: true,
+21 silly publish   _location: '/simditor',
+21 silly publish   _nodeVersion: '5.1.0',
+21 silly publish   _npmUser: { name: 'farthinker', email: 'farthinker@gmail.com' },
+21 silly publish   _npmVersion: '3.3.12',
+21 silly publish   _phantomChildren: {},
+21 silly publish   _requested:
+21 silly publish    { raw: 'simditor@^2.3.6',
+21 silly publish      scope: null,
+21 silly publish      escapedName: 'simditor',
+21 silly publish      name: 'simditor',
+21 silly publish      rawSpec: '^2.3.6',
+21 silly publish      spec: '>=2.3.6 <3.0.0',
+21 silly publish      type: 'range' },
+21 silly publish   _requiredBy: [ '#USER', '/' ],
+21 silly publish   _resolved: 'https://registry.npmjs.org/simditor/-/simditor-2.3.6.tgz',
+21 silly publish   _shasum: 'fd41f769e151b565099494f45df333d6eb6b35f4',
+21 silly publish   _shrinkwrap: null,
+21 silly publish   _spec: 'simditor@^2.3.6',
+21 silly publish   _where: 'D:\\project\\data_product\\webapp\\jingtian',
+21 silly publish   author: { name: 'farthinker', email: 'farthinker@gmail.com' },
+21 silly publish   bugs: { url: 'https://github.com/mycolorway/simditor/issues' },
+21 silly publish   dependencies:
+21 silly publish    { jquery: '~2.1.4',
+21 silly publish      'simple-hotkeys': '~1.0.3',
+21 silly publish      'simple-module': '~2.0.6',
+21 silly publish      'simple-uploader': '~2.0.7' },
+21 silly publish   description: 'A simple online editor',
+21 silly publish   devDependencies:
+21 silly publish    { express: '~3.3.4',
+21 silly publish      grunt: '0.x',
+21 silly publish      'grunt-banner': '0.3.x',
+21 silly publish      'grunt-contrib-clean': '0.x',
+21 silly publish      'grunt-contrib-coffee': '0.x',
+21 silly publish      'grunt-contrib-compress': '0.x',
+21 silly publish      'grunt-contrib-copy': '0.x',
+21 silly publish      'grunt-contrib-jasmine': '0.x',
+21 silly publish      'grunt-contrib-sass': '0.x',
+21 silly publish      'grunt-contrib-uglify': '0.x',
+21 silly publish      'grunt-contrib-watch': '0.x',
+21 silly publish      'grunt-curl': '2.1.x',
+21 silly publish      'grunt-express': '1.4.0',
+21 silly publish      'grunt-jekyll': '0.x',
+21 silly publish      'grunt-umd': '2.3.x' },
+21 silly publish   directories: {},
+21 silly publish   dist:
+21 silly publish    { shasum: 'ba71edc3161fc438466c336c9c10052743403947',
+21 silly publish      tarball: 'https://registry.npmjs.org/simditor/-/simditor-2.3.6.tgz' },
+21 silly publish   gitHead: '1d7d792972598099a714d6fcde1932c070cb008e',
+21 silly publish   homepage: 'http://simditor.tower.im',
+21 silly publish   keywords: [ 'editor simditor' ],
+21 silly publish   license: 'MIT',
+21 silly publish   main: 'lib/simditor.js',
+21 silly publish   maintainers: [ { name: 'farthinker', email: 'farthinker@gmail.com' } ],
+21 silly publish   name: 'simditor',
+21 silly publish   optionalDependencies: {},
+21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+ssh://git@github.com/mycolorway/simditor.git' },
+21 silly publish   scripts: { start: 'node server.js', test: 'grunt test --verbose' },
+21 silly publish   version: '2.3.6' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name simditor
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'simditor',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'simditor',
+26 silly mapToRegistry   name: 'simditor',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/simditor
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading C:\Users\hqq\AppData\Roaming\npm-cache\simditor\2.3.6\package.tgz
+30 verbose request uri https://registry.npmjs.org/simditor
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 10:40:24
+33 verbose request using bearer token for auth
+34 verbose request id 54332efb29a8db31
+35 http request PUT https://registry.npmjs.org/simditor
+36 http 403 https://registry.npmjs.org/simditor
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '102',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Wed, 11 Apr 2018 02:40:25 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-hkg17927-HKG',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1523414424.541333,VS0,VE1505',
+37 verbose headers   vary: 'Accept-Encoding, Accept' }
+38 verbose request invalidating C:\Users\hqq\AppData\Roaming\npm-cache\registry.npmjs.org\simditor on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: You do not have permission to publish "simditor". Are you logged in as the correct user? : simditor
+40 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+40 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+40 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+41 verbose statusCode 403
+42 verbose pkgid simditor
+43 verbose cwd D:\project\npm包\simditor
+44 error Windows_NT 10.0.16299
+45 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+46 error node v6.12.3
+47 error npm  v3.10.10
+48 error code E403
+49 error You do not have permission to publish "simditor". Are you logged in as the correct user? : simditor
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
